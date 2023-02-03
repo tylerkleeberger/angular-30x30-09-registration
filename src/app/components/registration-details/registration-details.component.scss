@@ -1,0 +1,47 @@
+/* ContactDetailComponent's private CSS styles */
+h2 {
+  color: #2c3a41;
+}
+
+.detail-title {
+    color: red;
+    font-size: x-large;
+    font-weight: 200;
+  }
+
+  .id {
+    margin-bottom: 1%;
+
+    span {
+      font-weight: 200;
+      margin-left: 1%;
+    }
+  }
+  
+  label {
+      color: #484848;
+      font-weight: bold;
+      font-size: large;
+    }
+    input {
+      font-size: 1em;
+      padding: .5rem;
+      font-family: Roboto;
+    }
+    button {
+      margin-top: 20px;
+      margin-right: 1%;
+      background-color: #eee;
+      padding: 1rem;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: #3a3a3a;
+      color: white;
+    }
+    button:disabled {
+      background-color: #eee;
+      color: #ccc;
+      cursor: auto;
+    }

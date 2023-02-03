@@ -1,0 +1,17 @@
+<h2>Registrant Information</h2>
+<div *ngIf="registrant">
+    <h2 class="detail-title">{{registrant.name}}</h2>
+    <div class="id">
+        <label>ID: 
+            <span>{{registrant.id}}
+            </span></label>
+        
+    </div>
+    <div>
+        <label for="contact-name">Name: </label>
+        <input id="contact-name" [(ngModel)]="registrant.name" placeholder="Enter Name...">
+    </div>
+</div>
+<button mat-raised-button color="warn" (click)="goBack()">Back</button>
+<button mat-raised-button color="accent" (click)="save()">Save Edits</button>
+

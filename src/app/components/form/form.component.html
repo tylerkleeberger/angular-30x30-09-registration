@@ -1,0 +1,9 @@
+<!-- add item -->
+<div style="margin-top: 5%;">
+    <label for="new-contact">Name: </label>
+    <input id="new-contact" #registrantName />
+    <button mat-raised-button color="accent" (click)="add(registrantName.value); registrantName.value=''">
+        Add
+    </button>
+</div>
+

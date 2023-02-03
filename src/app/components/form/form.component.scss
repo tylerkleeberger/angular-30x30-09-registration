@@ -1,0 +1,31 @@
+/* Contacts Component's private CSS styles */
+
+label {
+    font-size: larger;
+}
+
+input {
+    width: 40%;
+    height: 28px;
+    margin-bottom: 3%;
+}
+
+button {
+    margin-left: 1%;
+    background-color: #eee;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: Roboto;
+    width: 150px;
+    vertical-align: middle;
+  }
+  button:hover {
+    background-color: #3a3a3a;
+    color: white;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
+    
